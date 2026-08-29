@@ -76,15 +76,6 @@ on larger, messier codebases and on queries mixing exact identifiers
 with natural language — a known limitation worth stating honestly
 rather than cherry-picking a favorable example.
 
-## Design choices
-- **Same chunking as the companion project** ([rag-chatbot](https://github.com/GARGI-tec/rag-chatbot)) —
-  AST-aware for Python (whole functions/classes), line-window fallback
-  for other files.
-- **RRF over score-blending:** avoids the brittle problem of tuning a
-  weight between BM25 scores and cosine similarities, which live on
-  incomparable scales.
-- **All three results shown, not just hybrid:** makes the comparison
-  demonstrable rather than a black box.
 
 ## Limitations
 - BM25 index is rebuilt from Chroma's stored documents on each app
