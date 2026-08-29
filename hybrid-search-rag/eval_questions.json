@@ -1,0 +1,22 @@
+[
+  {
+    "question": "BM25Okapi tokenize scores ranked",
+    "expected_file": ".\\src\\search_engine.py"
+  },
+  {
+    "question": "What does the RRF_K constant do in the fusion formula?",
+    "expected_file": ".\\src\\search_engine.py"
+  },
+  {
+    "question": "How does the app display the three search methods side by side?",
+    "expected_file": ".\\app.py"
+  },
+  {
+    "question": "How does chunk_python_file split a Python file using the ast module?",
+    "expected_file": ".\\src\\ingest.py"
+  },
+  {
+    "question": "How is the retrieval hit rate calculated for each search method?",
+    "expected_file": ".\\eval.py"
+  }
+]
