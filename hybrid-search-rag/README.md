@@ -28,7 +28,6 @@ A document ranked highly by either method gets a high fused score. No
 score normalization or tuning required — this is a well-established
 technique used in real hybrid search systems.
 
-## Stack (100% free, no credit card)
 - **LLM:** Gemini 2.5 Flash
 - **Keyword search:** BM25 (`rank_bm25`, pure Python, no API)
 - **Semantic search:** `sentence-transformers/all-MiniLM-L6-v2`, run locally
